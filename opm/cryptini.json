@@ -1,0 +1,30 @@
+{
+  "PackageData0" : {
+    "Name" : "opm",
+    "DisplayName" : "CryptINI  - Crypted version of TiniFile",
+    "Category" : 0,
+    "RepositoryFileName" : "opm.zip",
+    "RepositoryFileSize" : 14224,
+    "RepositoryFileHash" : "d710c2bc822ba9ee5ba6886ec626e4b5",
+    "RepositoryDate" : 4.2696000000000000E+004,
+    "PackageBaseDir" : "opm\\\/",
+    "HomePageURL" : "wiki.lazarus.freepascal.org\/CryptINI",
+    "DownloadURL" : "https:\/\/sourceforge.net\/projects\/lazautoupdate\/files\/otherpackages\/cryptini.zip",
+    "SVNURL" : ""
+  },
+  "PackageFiles0" : [
+    {
+      "Name" : "cryptini.lpk",
+      "Description" : "This is a TiniFile implementation that is resistant to tampering.\r\nIn normal (PlainTextMode = FALSE) mode, any calls to Write values are\r\naccompanied by an embedded MD5 hash value (and also reversed then Base64\/IDEA Encrypted)\r\nThis is invisible in normal use (i.e. read methods return normal results)\r\nbut there are added methods to internally verify any entries.\r\nIt also is able to write a standard ident section containing various\r\ndetails including authorship and copyright.  A single function allows\r\nyou to check on app startup whether this section has been altered.\r\nIt also includes a useful 'First Run' functionality.\r\nIt's intended purpose is to store information that cannot be easily altered\r\nin a text editor (such as HiScores etc) by a weekend scripter.\r\nThe WriteInteger method is the most secure as it double-encrypts as well as\r\nembedding an MD5Hash value as a checksum.  Very handy to save scores etc.\r\nIt is paired with ReadInteger and VerifyInteger.",
+      "Author" : "minesadorada at freepascal forum",
+      "License" : "Modified LGPL\r\nYou are free to use\/alter\/add\/sell as you wish.  As a request, please only add to the existing attribution header.\r\nPlease update this versioninfo alongside the constant C_VERSION",
+      "RelativeFilePath" : "",
+      "VersionAsString" : "0.0.8.0",
+      "LazCompatibility" : "1.6, Trunk",
+      "FPCCompatibility" : "2.6.4, 3.0.0",
+      "SupportedWidgetSet" : "win32\/64, gtk2, carbon",
+      "PackageType" : 3,
+      "DependenciesAsString" : "dcpcrypt(2.0.0.0), LCLBase"
+    }
+  ]
+}

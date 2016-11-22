@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Win32"/>
+    <Units Count="40">
+      <Unit0>
+        <Filename Value="cryptinitest.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="6"/>
+        <CursorPos Y="49"/>
+        <UsageCount Value="106"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="umainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="mainform"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="10"/>
+        <CursorPos X="29" Y="29"/>
+        <UsageCount Value="106"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="umemoform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ShowINIForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="37" Y="9"/>
+        <UsageCount Value="98"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="ukeydialog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="keydialog"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="13"/>
+        <CursorPos X="12" Y="29"/>
+        <UsageCount Value="90"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="uinputsectionvaluesform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="InputSectionValuesForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uInputSectionValuesForm"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="72"/>
+        <CursorPos Y="84"/>
+        <UsageCount Value="68"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="cryptini\ucryptini.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="203"/>
+        <CursorPos X="37" Y="226"/>
+        <UsageCount Value="24"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="cryptinilpk\ucryptini.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos Y="14"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\MD5Code\ucryptini.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="360"/>
+        <CursorPos Y="363"/>
+        <UsageCount Value="102"/>
+        <Bookmarks Count="2">
+          <Item0 Y="975" ID="1"/>
+          <Item1 Y="1028"/>
+        </Bookmarks>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\NewPascal\fpc\packages\hash\src\md5.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="130"/>
+        <UsageCount Value="6"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\NewPascal\fpc\packages\fcl-base\src\inifiles.pp"/>
+        <UnitName Value="IniFiles"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="70"/>
+        <CursorPos X="3" Y="957"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\lazautoupdate\svn\trunk\lazautoupdatesource\packagesource\versionsupport.pas"/>
+        <UnitName Value="VersionSupport"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="187"/>
+        <CursorPos X="45" Y="109"/>
+        <UsageCount Value="6"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\NewPascal\lazarus\components\lazproj\lazxproj_src\lazxproj_intf.pas"/>
+        <UnitName Value="LazXProj_Intf"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="41" Y="18"/>
+        <UsageCount Value="6"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\NewPascal\lazarus\lcl\dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="685"/>
+        <CursorPos X="25" Y="704"/>
+        <UsageCount Value="7"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\NewPascal\fpc\rtl\objpas\sysutils\sysstrh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="65"/>
+        <CursorPos X="18" Y="115"/>
+        <UsageCount Value="7"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\NewPascal\fpc\rtl\objpas\sysutils\sysstr.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="890"/>
+        <CursorPos X="3" Y="893"/>
+        <UsageCount Value="7"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\NewPascal\lazarus\lcl\include\messagedialogs.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="212"/>
+        <UsageCount Value="7"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\lazautoupdate\svn\trunk\lazautoupdatesource\packagesource\ulazautoupdate.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="461"/>
+        <CursorPos X="42" Y="469"/>
+        <UsageCount Value="12"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="D:\usr\share\fpcsrc\3.0.0\rtl\objpas\sysutils\datih.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="132"/>
+        <CursorPos X="84" Y="153"/>
+        <UsageCount Value="7"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="D:\usr\share\fpcsrc\3.0.0\rtl\objpas\sysutils\sysinth.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="43"/>
+        <CursorPos X="24" Y="57"/>
+        <UsageCount Value="7"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="D:\usr\share\fpcsrc\3.0.0\packages\fcl-base\src\blowfish.pp"/>
+        <UnitName Value="BlowFish"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="478"/>
+        <UsageCount Value="7"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="C:\NewPascal\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="28"/>
+        <CursorPos X="3" Y="47"/>
+        <UsageCount Value="7"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="C:\NewPascal\projects\snippets\uuser.pas"/>
+        <UnitName Value="uUser"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="301"/>
+        <UsageCount Value="7"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="D:\usr\share\fpcsrc\3.0.0\packages\fcl-base\src\inifiles.pp"/>
+        <UnitName Value="IniFiles"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="20"/>
+        <UsageCount Value="21"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="C:\NewPascal\fpc\rtl\objpas\sysutils\sysinth.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="44"/>
+        <CursorPos X="3" Y="33"/>
+        <UsageCount Value="18"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="C:\NewPascal\fpc\rtl\objpas\classes\classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="654"/>
+        <CursorPos X="37" Y="676"/>
+        <UsageCount Value="13"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="C:\NewPascal\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="996"/>
+        <CursorPos Y="1019"/>
+        <UsageCount Value="8"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="C:\NewPascal\lazarus\components\lazutils\lazmethodlist.pas"/>
+        <UnitName Value="LazMethodList"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="273"/>
+        <CursorPos Y="308"/>
+        <UsageCount Value="12"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="C:\NewPascal\lazarus\lcl\include\wincontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6442"/>
+        <CursorPos Y="6463"/>
+        <UsageCount Value="8"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="C:\NewPascal\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3235"/>
+        <CursorPos Y="3259"/>
+        <UsageCount Value="8"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="C:\NewPascal\lazarus\lcl\include\customedit.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="527"/>
+        <CursorPos Y="547"/>
+        <UsageCount Value="8"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="C:\NewPascal\lazarus\lcl\interfaces\win32\win32wsstdctrls.pp"/>
+        <UnitName Value="Win32WSStdCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1187"/>
+        <CursorPos Y="1210"/>
+        <UsageCount Value="8"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="C:\NewPascal\lazarus\lcl\interfaces\win32\win32proc.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1044"/>
+        <CursorPos Y="1069"/>
+        <UsageCount Value="8"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="C:\NewPascal\lazarus\components\lazutils\lazutf8.pas"/>
+        <UnitName Value="LazUTF8"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3565"/>
+        <CursorPos Y="3589"/>
+        <UsageCount Value="8"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="..\..\golfml\coursewriter\source\2.x\umainform.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3333"/>
+        <CursorPos X="31" Y="3328"/>
+        <UsageCount Value="9"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="C:\NewPascal\lazarus\components\LazOpkMan-master\LazOpkMan-master\opkman_installer.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="147"/>
+        <CursorPos X="42" Y="163"/>
+        <UsageCount Value="9"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="D:\usr\lib\lazarus\1.6\lcl\lclversion.pas"/>
+        <UnitName Value="LCLVersion"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="12" Y="35"/>
+        <UsageCount Value="21"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="D:\home\gordon\lazarus_components\LazOpkMan-master\opkman_common.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="227"/>
+        <UsageCount Value="9"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="D:\home\gordon\lazarus_components\LazOpkMan-master\opkman_mainfrm.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <UsageCount Value="9"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="D:\home\gordon\lazarus_components\LazOpkMan-master\opkman_installer.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="139"/>
+        <CursorPos X="13" Y="168"/>
+        <UsageCount Value="13"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="..\..\lazprojx\lazxproj_src\lazxproj_intf.pas"/>
+        <UnitName Value="LazXProj_Intf"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="41" Y="18"/>
+        <UsageCount Value="10"/>
+      </Unit39>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="320" Column="16" TopLine="313"/>
+      </Position1>
+      <Position2>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="668" Column="38" TopLine="646"/>
+      </Position2>
+      <Position3>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="148" Column="33" TopLine="137"/>
+      </Position3>
+      <Position4>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="567" Column="3" TopLine="564"/>
+      </Position4>
+      <Position5>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="318" Column="34" TopLine="313"/>
+      </Position5>
+      <Position6>
+        <Filename Value="umemoform.pas"/>
+        <Caret Line="49" TopLine="44"/>
+      </Position6>
+      <Position7>
+        <Filename Value="umemoform.pas"/>
+        <Caret Line="73" Column="9" TopLine="43"/>
+      </Position7>
+      <Position8>
+        <Filename Value="umemoform.pas"/>
+        <Caret Line="68" Column="18" TopLine="49"/>
+      </Position8>
+      <Position9>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="152" Column="31" TopLine="134"/>
+      </Position9>
+      <Position10>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="149" Column="31" TopLine="131"/>
+      </Position10>
+      <Position11>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="28" Column="37" TopLine="20"/>
+      </Position11>
+      <Position12>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="163" Column="19" TopLine="135"/>
+      </Position12>
+      <Position13>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="304" Column="5" TopLine="281"/>
+      </Position13>
+      <Position14>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="304" Column="5" TopLine="281"/>
+      </Position14>
+      <Position15>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="135" Column="51" TopLine="122"/>
+      </Position15>
+      <Position16>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="131" Column="3" TopLine="131"/>
+      </Position16>
+      <Position17>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="133" Column="3" TopLine="133"/>
+      </Position17>
+      <Position18>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="508" Column="32" TopLine="490"/>
+      </Position18>
+      <Position19>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="507" Column="32" TopLine="489"/>
+      </Position19>
+      <Position20>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="508" TopLine="506"/>
+      </Position20>
+      <Position21>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="507" TopLine="505"/>
+      </Position21>
+      <Position22>
+        <Filename Value="cryptinilpk\ucryptini.pas"/>
+      </Position22>
+      <Position23>
+        <Filename Value="cryptinilpk\ucryptini.pas"/>
+        <Caret Line="177" Column="25" TopLine="154"/>
+      </Position23>
+      <Position24>
+        <Filename Value="cryptinitest.lpr"/>
+        <Caret Line="21" TopLine="6"/>
+      </Position24>
+      <Position25>
+        <Filename Value="cryptinitest.lpr"/>
+        <Caret Line="44" Column="27" TopLine="6"/>
+      </Position25>
+      <Position26>
+        <Filename Value="cryptinitest.lpr"/>
+        <Caret Line="49" TopLine="6"/>
+      </Position26>
+      <Position27>
+        <Filename Value="cryptinitest.lpr"/>
+        <Caret Line="42" Column="24" TopLine="6"/>
+      </Position27>
+      <Position28>
+        <Filename Value="cryptinitest.lpr"/>
+        <Caret Line="49" TopLine="6"/>
+      </Position28>
+      <Position29>
+        <Filename Value="cryptinilpk\ucryptini.pas"/>
+        <Caret Line="263" Column="18" TopLine="256"/>
+      </Position29>
+      <Position30>
+        <Filename Value="cryptinilpk\ucryptini.pas"/>
+        <Caret Line="14"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

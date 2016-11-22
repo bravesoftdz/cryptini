@@ -1,0 +1,35 @@
+procedure TForm1.FormCreate(Sender: TObject);
+const
+  C_KEYPHRASE = 'I do like to be beside the seaside'; // Move this to the top of the unit
+Begin
+ ...other code
+ // Initialise the encrypted config file
+ INI := TCryptIniFile.Create(ChangeFileExt(Application.EXEName, '.cfg'));
+
+ // First ever run.  INI is absent
+ If INI.IsVirgin then INI.WriteIdent('minesadorada','(c)2016','minesadorada@charcodelvalle.com','Creative Commons',TRUE);l
+
+ if NOT INI.VerifyIdent('5b319674f5cb55f3ed1e404e33c25868') then // I got this from the INI file
+   ShowMessage('This is not a genuine copy of ' + Application.Title + '!')
+ else INI.Deflower; // If not Deflowered then the default ini is used.
+
+ // After first run, use the encrypted version
+ If NOT INI.IsVirgin then
+ begin
+   INI.DecryptINI(TRUE,C_KEYPHRASE);
+ // Check the unencrypted version..
+   if NOT INI.VerifyIdent('5b319674f5cb55f3ed1e404e33c25868') then // I got this from the INI file
+   ShowMessage('This is not a genuine copy of ' + Application.Title + '!');
+ end;
+ INI.KeyPhrase:=C_KEYPHRASE; // for subsequent read/writes
+ ...other code
+end;
+
+procedure Tmainform.FormDestroy(Sender: TObject);
+const
+  C_KEYPHRASE = 'I do like to be beside the seaside'; // Move this to the top of the unit
+Begin
+ ...other code
+  INI.EncryptINI(TRUE,C_KEYPHRASE);
+  ...other code
+end;
